@@ -38,10 +38,10 @@ int main() {
     for (i = 0; reemplazo[i]; i++) {
         switch (reemplazo[i]) {
             case 'a': case 'A': reemplazo[i] = '@'; break;
-            case 'e': case 'E': reemplazo[i] = '#'; break;
-            case 'i': case 'I': reemplazo[i] = '!'; break;
-            case 'o': case 'O': reemplazo[i] = '$'; break;
-            case 'u': case 'U': reemplazo[i] = '%'; break;
+            case 'e': case 'E': reemplazo[i] = '@'; break;
+            case 'i': case 'I': reemplazo[i] = '@'; break;
+            case 'o': case 'O': reemplazo[i] = '@'; break;
+            case 'u': case 'U': reemplazo[i] = '@'; break;
         }
     }
 
@@ -59,6 +59,6 @@ int main() {
     printf("En minusculas: %s\n", minus);
     printf("Reemplazo de vocales: %s\n", reemplazo);
  
-    getch ();
+
     return 0;
 }
